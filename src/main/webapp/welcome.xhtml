@@ -9,9 +9,9 @@
             #{bundle['application.welcomepage.title']}
         </ui:define>
         <ui:define name="content">
-            #{bundle['application.welcome']}, #{user.name}! <br/>
+            #{bundle['application.welcome']}, #{userMB.name}! <br/>
             <h:link value="#{bundle['application.welcomepage.return']}"
                     outcome="index"></h:link> <br/><br/>
         </ui:define>
-    </ui:composition>
+    </ui:composition> 
 </html>
